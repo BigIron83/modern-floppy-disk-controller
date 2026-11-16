@@ -4,6 +4,8 @@ KiCad 9 routed prototype for the Revision B Raspberry Pi OS appliance. The board
 
 ## Files
 
+- [Bill of materials](BOM.md) lists quantities and U.S. supplier references for the board and harness.
+
 - `floppy-interface-p1.kicad_pcb` is the editable routed PCB. Open it from `floppy-interface-p1.kicad_pro`.
 - `pad-net-map.csv` records footprint pins and intentional no-connect pads.
 - `routed-top.png` previews the copper and top silkscreen.
