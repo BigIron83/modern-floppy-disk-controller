@@ -1,0 +1,31 @@
+J4 pin,PCB net,Nucleo connector,Nucleo pin,Nucleo signal,Function
+1,GND,CN11,8,GND,Return
+2,PI_5V,CN11,6,5V_EXT,Regulated input with Nucleo JP2 5-6
+3,MCU_3V3,CN11,16,3V3,Nucleo regulated output in 5V_EXT mode
+4,MCU_RESET_N,CN11,14,NRST,Active-low reset
+5,SPI_SCK,CN12,11,PA5,SPI1 SCK AF5
+6,SPI_MOSI,CN12,29,PB5,SPI1 MOSI AF5
+7,SPI_MISO,CN12,27,PB4,SPI1 MISO AF5
+8,SPI_CE0_N,CN11,66,PG10,SPI1 hardware NSS AF5
+9,SPI_REPLY_N,CN11,4,PD2,Open-drain GPIO output
+10,GND,CN12,9,GND,SPI return
+11,DENSITY_CTL,CN11,57,PD0,Active-high GPIO output to inverting driver
+12,DRV10_CTL,CN11,55,PD1,Active-high GPIO output to inverting driver
+13,DRV12_CTL,CN11,40,PD3,Active-high GPIO output to inverting driver
+14,DRV14_CTL,CN11,39,PD4,Active-high GPIO output to inverting driver
+15,DRV16_CTL,CN11,45,PD7,Active-high GPIO output to inverting driver
+16,DIR_CTL,CN11,46,PE2,GPIO output to inverting driver
+17,STEP_CTL,CN11,47,PE3,Active-high pulse to inverting driver
+18,WDATA_CTL,CN11,28,PA0,TIM5 CH1 AF2 active-high compare pulse
+19,WG_REQ,CN11,48,PE4,Active-high write request GPIO
+20,WINDOW_OK,CN12,37,PA3,TIM5 CH4 AF2 active-high hardware deadline
+21,SIDE_CTL,CN11,50,PE5,GPIO output to inverting driver
+22,TG43_CTL,CN11,62,PE6,GPIO output to inverting driver
+23,HLOAD_CTL,CN11,43,PD6,Active-high GPIO output to inverting driver
+24,INDEX_P,CN12,31,PB3,TIM2 CH2 AF1 capture rising
+25,TRACK0_P,CN11,35,PC2,Active-high GPIO input
+26,WPROT_P,CN11,37,PC3,Active-high GPIO input
+27,RDATA_P,CN11,17,PA15,TIM2 CH1 AF1 capture rising
+28,STATUS34_P,CN11,38,PC0,Active-high GPIO input
+29,READY50_P,CN11,36,PC1,Active-high GPIO input
+30,GND,CN12,39,GND,Flux and control return

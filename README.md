@@ -4,7 +4,9 @@
 
 Design for a standalone Raspberry Pi OS appliance that captures and replays digital flux-transition timing on conventional 8-inch, 5.25-inch, and 3.5-inch disk drives. The drive supplies the read pulses from its analog read channel. The controller timestamps those pulses and produces timing-accurate write pulses. The Raspberry Pi handles disk formats and stores images locally.
 
-This is an engineering specification. PCB routing, firmware implementation, and hardware validation remain to be completed. Model-specific drive profiles are qualified against the actual drive and manual.
+This is an engineering specification. The P1 PCB is routed and documented. Firmware implementation and hardware validation remain pending. Model-specific drive profiles are qualified against the actual drive and manual.
+
+The [Revision P1 hardware package](hardware/p1/README.md) includes the editable KiCad project, Nucleo harness map, and bench validation procedure.
 
 ## 1. Architecture
 
